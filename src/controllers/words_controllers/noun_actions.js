@@ -29,7 +29,7 @@ noun_Ctrl.getNounWords = async (req, res) => {
     if (req.params.page) {
         actual_page = req.params.page;
     }
-    var itemsPerPage = 3;
+    var itemsPerPage = 5;
     var skip = (actual_page * itemsPerPage) - itemsPerPage;
 
     //--

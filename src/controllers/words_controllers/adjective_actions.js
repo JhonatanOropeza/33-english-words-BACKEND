@@ -28,7 +28,7 @@ adjective_Ctrl.getAdjectiveWords = async (req, res) => {
     if (req.params.page) {
         actual_page = req.params.page;
     }
-    var itemsPerPage = 10;
+    var itemsPerPage = 5;
     var skip = (actual_page * itemsPerPage) - itemsPerPage;
     //--
     try {
